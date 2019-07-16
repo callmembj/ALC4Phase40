@@ -14,12 +14,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void gotoAboutAlc (View view) {
+    public void onAboutAlc(View view) {
         Intent i = (new Intent(this, AboutAlc.class) );
         startActivity (i);
     }
 
-    public void gotoMyProfile (View view)  {
+    public void onMyProfile(View view) {
 
         Intent i = (new Intent(this, MyProfile.class));
         startActivity (i);

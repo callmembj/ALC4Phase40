@@ -1,17 +1,17 @@
 package com.example.alc4phase1;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.net.http.SslError;
+import android.os.Bundle;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 public class AboutAlc extends AppCompatActivity {
 
-    WebView about_alc;
+    private WebView about_alc;
     SwipeRefreshLayout swipeRefreshLayout;
     private String mURL = "https://andela.com/alc/";
 
